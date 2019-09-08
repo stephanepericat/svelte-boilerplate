@@ -2,7 +2,7 @@ import App from "../../src/App.svelte";
 import mount from "cypress-svelte-unit-test";
 
 describe("App component", () => {
-  it("shoul display a greeting", () => {
+  it("should display a greeting", () => {
     cy.viewport(960, 500);
 
     mount(App, {
@@ -11,6 +11,6 @@ describe("App component", () => {
       }
     });
 
-    cy.get("h1").should("contain", "Hello Cypress!")
-  })
-})
+    cy.get("h1").should("contain", "Hello Cypress!");
+  });
+});
