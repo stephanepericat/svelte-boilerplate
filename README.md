@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/stephanepericat/svelte-test.svg?branch=master)](https://travis-ci.org/stephanepericat/svelte-test)
 
-# Svelte Test
+# Svelte Boilerplate
 
 A svelte.js boilterplate / testing playground.
 

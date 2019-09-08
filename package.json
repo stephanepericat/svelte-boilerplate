@@ -1,5 +1,5 @@
 {
-  "name": "svelte-test",
+  "name": "svelte-boilerplate",
   "version": "1.0.0",
   "description": "A svelte.js boilterplate / testing playground.",
   "main": "src/index.js",
@@ -14,7 +14,7 @@
   "author": "Stephane P. Pericat <contact@pericat.net>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephanepericat/svelte-test.git"
+    "url": "https://github.com/stephanepericat/svelte-boilerplate.git"
   },
   "license": "MIT",
   "dependencies": {
