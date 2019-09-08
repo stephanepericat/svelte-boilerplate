@@ -6,6 +6,7 @@ A svelte.js boilterplate / testing playground.
 
 ## Features
 
-- development with webpack-dev-server
-- e2e testing with Cypress
-- Travis CI integration
+- Development with webpack-dev-server
+- E2E testing with Cypress
+- Travis CI configuration
+- Storybook integration
