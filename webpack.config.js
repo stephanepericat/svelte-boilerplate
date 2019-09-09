@@ -23,7 +23,12 @@ module.exports = {
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "My Awesome Svelte App",
+      template: "index.ejs"
+    })
+  ],
   devServer: {
     open: true
   }
