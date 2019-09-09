@@ -10,6 +10,7 @@ A svelte.js boilterplate / testing playground.
 - E2E testing with Cypress
 - Travis CI configuration
 - Storybook integration
+- SASS support
 
 ## Installation
 
