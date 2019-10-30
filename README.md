@@ -6,6 +6,7 @@ A svelte.js boilterplate / testing playground.
 
 ## Features
 
+- client side routing with [svelte-routing](https://github.com/EmilTholin/svelte-routing)
 - Development with webpack-dev-server
 - E2E testing with Cypress
 - Travis CI configuration

@@ -1,15 +1,19 @@
 <script>
   import "./styles/App.scss";
 
-  export let name;
+  import { Router, Route, Link } from "svelte-routing";
+
+  import Home from "./routes/Home.svelte";
+  import About from "./routes/About.svelte";
 </script>
 
-<style>
-  h1 {
-    color: purple;
-  }
-</style>
-
-<div class="app">
-  <h1>Hello {name}!</h1>
-</div>
+<Router>
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to="/about">About</Link>
+  </nav>
+  <div class="app">
+    <Route path="/about" component={About} />
+    <Route path="/" component={Home} />
+  </div>
+</Router>
