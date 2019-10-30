@@ -3,14 +3,12 @@ import { withA11y } from "@storybook/addon-a11y";
 // import { action } from '@storybook/addon-actions';
 import { withKnobs, text, boolean, number } from "@storybook/addon-knobs";
 
-import App from "../src/App.svelte";
+import "../src/styles/App.scss";
+import Home from "../src/routes/Home.svelte";
 
-storiesOf("My App", module)
+storiesOf("Home", module)
   .addDecorator(withA11y)
   .addDecorator(withKnobs)
   .add("Default", () => ({
-    Component: App,
-    props: {
-      name: text("Name", "Storybook")
-    }
+    Component: Home
   }));
