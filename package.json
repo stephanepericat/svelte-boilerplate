@@ -18,7 +18,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "svelte": "^3.10.0"
+    "svelte": "^3.10.0",
+    "svelte-routing": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
